@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 300px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.center-content {
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+.wip-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #E2A315;
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.browse {
+    background-color: #E2A315;
+    color: #333;
+    border: none;
+}
+.sign-in {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
