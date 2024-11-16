@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 300px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.center-content {
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+.wip-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #E2A315;
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.browse {
+    background-color: #E2A315;
+    color: #333;
+    border: none;
+}
+.sign-in {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #f7b600;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.header img {
+    width: 20px;
+    height: 20px;
+}
+
+.header h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.options div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.options div img {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+
+.typography-section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.typography-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.typography-section .typography-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.typography-row span {
+    display: inline-block;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+}
+
+.feedback-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.feedback-section h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.feedback-section p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.feedback-section button {
+    background-color: #f7b600;
+    color: #333;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bottom-nav {
+    background-color: #f7b600;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-nav img {
+    width: 24px;
+    height: 24px;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #e2a315;
+    margin: 0 10px;
+    text-decoration: none;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container, .profile, .content-detail, .comments-section {
+    padding: 20px;
+}
+
+.btn {
+    background-color: #e2a315;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+h1, h2 {
+    color: #333;
+}
